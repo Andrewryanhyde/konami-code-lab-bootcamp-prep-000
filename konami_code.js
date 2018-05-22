@@ -24,10 +24,11 @@ function init() {
 	  if (key === codes[index]) {
 	    index++;
 	  }
-    if(key===code[index]){
-      index++;
-      if(index===code.length){
-        window.alert("Cheat activated, you cheater")
+     if (index === codes.length) {
+	    alert("Congratulations, you entered the Konami code!");
+
+	    index = 0;
+
       }
     }
     else{
