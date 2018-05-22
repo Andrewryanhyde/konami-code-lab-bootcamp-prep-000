@@ -17,5 +17,5 @@ chai.config.includeStack = true;
 let index = 0;
 
 function init() {
-  document.body.addEventListener
+  document.body.addEventListener('keydown', )
 }
