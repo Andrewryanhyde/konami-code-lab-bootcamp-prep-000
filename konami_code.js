@@ -17,5 +17,19 @@ chai.config.includeStack = true;
 let index = 0;
 
 function init() {
-  document.body.addEventListener('keydown', function)
+  document.body.addEventListener('keydown', function() {
+    let key = e.key;
+    
+    if (key === codes[index]) {
+      index++;
+      
+      if (index === codes.length) {
+        alert("You've entered the Konami code!");
+        
+        index = 0;
+      }
+    } else {
+      index = 0;
+    }
+  }) 
 }
