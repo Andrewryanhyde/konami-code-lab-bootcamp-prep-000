@@ -15,7 +15,3 @@ const codes = [
 chai.config.includeStack = true;
 
 
- if (index === codes.length) {
-	    alert("Congratulations, you entered the Konami code!");
-
-	    index = 0;
