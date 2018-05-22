@@ -18,7 +18,7 @@ chai.config.includeStack = true;
 function init() {
   let index=0;
 function init() {
-  window.addEventListener("keydown", function(event){
+  document.body.addEventListener("keydown", function(event){
     const key=parseInt(event.which);
     console.log(event.which);
     if(key===code[index]){
