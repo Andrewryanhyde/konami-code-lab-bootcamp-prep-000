@@ -19,6 +19,7 @@ function init() {
   let index=0;
 function init() {
   document.body.addEventListener("keydown", function event(e){
+   let key = e.key
     const key=parseInt(event.which);
     console.log(event.which);
     if(key===code[index]){
